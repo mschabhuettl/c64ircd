@@ -53,3 +53,16 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# c64 / cc65 build output
+build/
+*.prg
+*.d64
+*.lbl
+*.dbg
+*.lst
+
+# tools
+.cache/
+.claude/settings.local.json
+.directory
